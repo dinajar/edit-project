@@ -5,33 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">"
+    
 </head>
 <body>
     <header>
+        <div>
+            <img alt="logo" src="/logo.png" >
+        </div>
         <nav>
-            <a href="index.html">Home</a>
+            <ul>
+                <li><a href="./index.html"> Home </a> </li>
+                <li><a href="./about.html"> About Us </a> </li>
+            </ul>
         </nav>
-        <h1> ToDo </h1>
-        <img src="/logo.jpg">
     </header>
     <main>
+    
         <section>
-            <h2> dina jaradat </h2>
+            <div style="margin: 100px ;">
+                <h1 id="styleName"> Your Name </h1>
+                <img id="profil" src="profil.png">
+                 
+                <p id="overview">Overview About Yourself</p>
+                <h2 id="Contact"> Contact Me</h2>
+                
+            </div>
+            <div >
+                <form style="margin:150px 400px;"  >
+                    
+                    
+                    <input type="text">
+                    <label> Full Name </label>
+                    <BR>
+                    
+                    <input type="email">
+                    <label> Email </label>
+                    <br>
+                    
+                    <input type="tel">
+                    <label> phone </label>
+                    <br>
+                    
+                    <textarea></textarea>
+                    <label> Message </label>
+                    <br>
+                    <button> Send </button>
+                    
+                </form>
+            </div>
         </section>
-        <section>
-            <form>
-                <label> First name </label>
-                <input type="text">
-                <label> Last name </label>
-                <input type="text">
-                <label> Email </label>
-                <input type="email">
-                <input type="submit">
-            </form>
-        </section>
+        
     </main>
     <footer>
-        <h4>&copy;</h4>
+        <div>
+            <p>&copy;  2022.All Rights Reserved</p>
+        </div>
     </footer>
     
 </body>
